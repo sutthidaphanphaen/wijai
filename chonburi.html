@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tourist Attractions Chunburi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-100 font-sans text-blue-900">
+
+  <!-- Navbar -->
+  <nav class="bg-blue-800 text-white p-4 flex justify-between items-center shadow-md">
+    <h1 class="text-xl font-bold">Tourist Attractions Chunburi</h1>
+    <div class="space-x-4">
+      <button onclick="showPage('home')" class="hover:underline hover:text-blue-200">หน้าแรก</button>
+      <button onclick="showPage('list')" class="hover:underline hover:text-blue-200">สถานที่ท่องเที่ยว</button>
+      <button onclick="showPage('about')" class="hover:underline hover:text-blue-200">เกี่ยวกับ</button>
+    </div>
+  </nav>
+
+  <!-- Page Containers -->
+  <main class="p-6">
+
+    <!-- หน้าแรก -->
+    <section id="home" class="page">
+		<div class="bg-white border border-blue-200 rounded-lg shadow p-4 text-center">
+		<h2 class="text-2xl font-semibold mb-4 ">ยินดีต้อนรับสู Tourist Attractions Chunburi</h2><section class="p-6">
+	  	<img src="เกาะล้าน.jpg" style="display: block; margin: 0 auto;" class="rounded-lg shadow-md mb-4" /><section class="p-6">
+		</div>
+	<!-- 1 -->
+			<div class="bg-white border border-blue-200 rounded-lg shadow p-4 text-center">
+			<h2 class="text-2xl font-semibold mb-4 ">ประวัติและความเป็นมา</h2><section class="p-6">
+			<img src="ตรา.png" style="display: block; margin: 0 auto;" class="rounded-lg shadow-md mb-4" /><section class="p-6">
+			<p>จังหวัดชลบุรีเป็นจังหวัดชายทะเลในภาคตะวันออกของประเทศไทย มีประวัติความเป็นมายาวนานตั้งแต่ยุคก่อนประวัติศาสตร์ โดยมีหลักฐานแสดงถึงการตั้งถิ่นฐานของมนุษย์
+			โบราณ ต่อมาในยุคประวัติศาสตร์ พื้นที่ชลบุรีอยู่ภายใต้อิทธิพลของอาณาจักรทวารวดี ละโว้ และอยุธยา จนเข้าสู่ยุครัตนโกสินทร์ จึงเริ่มมีการจัดตั้งจังหวัดอย่างเป็นทางการในปี พ.ศ. 2476</p>
+			<p>ชื่อ “ชลบุรี” มีรากศัพท์จากภาษาสันสกฤต หมายถึง “เมืองแห่งน้ำ” ซึ่งสะท้อนถึงลักษณะภูมิประเทศและวิถีชีวิตของประชาชนในอดีต</p>
+			<p>ปัจจุบันชลบุรีเป็นจังหวัดที่มีความสำคัญทางเศรษฐกิจ อุตสาหกรรม การท่องเที่ยว และการศึกษา มีสถานที่สำคัญ เช่น เมืองพัทยา 
+			ท่าเรือแหลมฉบังและมหาวิทยาลัยบูรพา ซึ่งล้วนมีบทบาทในการขับเคลื่อนการพัฒนาของภูมิภาคและประเทศโดยรวม</p><section class="p-6">
+			</div>
+	 <!-- 2 -->
+				<div class="bg-white border border-blue-200 rounded-lg shadow p-4 text-center">
+				<h2 class="text-2xl font-semibold mb-4 ">ที่ตั้งและอาณาเขต </h2><section class="p-6">
+				<img src="ที่ตั้ง.png" style="display: block; margin: 0 auto;" class="rounded-lg shadow-md mb-4" /><section class="p-6">
+				<p>จังหวัดชลบุรีตั้งอยู่ทางภาคตะวันออกของประเทศไทย หรือชายฝั่งทะเลด้านตะวันออกของอ่าวไทย อยู่ระหว่างเส้นรุ้งที่ 12 องศา 30 ลิปดา ถึง 13 องศา </p>
+				<p>43 ลิปดาเหนือ และเส้นแวงที่ 100 องศา 45 ลิปดา ถึง 101 องศา 45 ลิปดาตะวันออก และมีอาณาเขตจรดจังหวัดข้างเคียงเรียงตามเข็มนาฬิกา ดังนี้</p>
+				<p>ทิศเหนือ ติดกับจังหวัดฉะเชิงเทรา</p>
+				<p>ทิศใต้ ติดกับจังหวัดระยอง</p>
+				<p>ทิศตะวันออก ติดกับจังหวัดฉะเชิงเทรา จังหวัดจันทบุรี และจังหวัดระยอง</p>
+				<p>ทิศตะวันตก ติดกับอ่าวไทย</p><section class="p-6">
+				</div>
+    </section>
+
+    <!-- สถานที่ท่องเที่ยว -->
+    <section id="list" class="page hidden space-y-6">
+      <!-- 1 -->
+      <div class="bg-white border border-blue-200 rounded-lg shadow p-4 text-center">
+        <h3 class="text-xl font-semibold text-blue-800">สวนสัตว์เปิดเขาเขียว (Khao Kheow Open Zoo)</h3><section class="p-6">
+		<img src="ป้าย.png" style="display: block; margin: 0 auto;" class="rounded-lg shadow-md mb-4"</h3> 
+			<p>สวนสัตว์เปิดเขาเขียว เป็นหนึ่งในสวนสัตว์ที่ใหญ่และครบวงจรที่สุดในประเทศไทย ตั้งอยู่ในอำเภอศรีราชา จังหวัดชลบุรี บนพื้นที่กว่า 5,000 ไร่ สวนสัตว์แห่งนี้เน้นการจัดแสดงสัตว์ในลักษณะเปิดใกล้ชิดธรรมชาติ ให้สัตว์อยู่ในพื้นที่กว้างขวางและเสมือนอยู่ในถิ่นที่อยู่อาศัยจริงที่นี่มีสัตว์มากกว่า 300 ชนิด เช่น ช้าง ยีราฟ ม้าลาย เสือโคร่ง แรด และเพนกวิน รวมถึงกิจกรรมยอดนิยมอย่าง Night Safari ที่เปิดให้นักท่องเที่ยวชมสัตว์ในช่วงกลางคืน และ การแสดงความสามารถของสัตว์ ที่เหมาะกับครอบครัวและเด็ก ๆสวนสัตว์ยังมีรถรางให้บริการรอบพื้นที่ พร้อมร้านอาหาร พื้นที่ปิกนิก และโซนเรียนรู้สำหรับเด็ก เหมาะสำหรับการท่องเที่ยวเชิงอนุรักษ์และการเรียนรู้เรื่องสัตว์ในบรรยากาศสบาย ๆ ไม่ไกลจากกรุงเทพฯ</p><section class="bg-white rounded-xl shadow-md p-6">
+		<h3 class="text-xl font-semibold text-blue-800"> เวลาเปิด–ปิด</h3><section class="p-6">
+			<p>เปิดทุกวัน เวลา 08.00 – 17.00 น.</p>
+			<p>Night Safari: 18.00 – 20.00 น. (เฉพาะวันเสาร์–อาทิตย์ และวันหยุด)</p><section class="p-6">
+		<h3 class="text-xl font-semibold text-blue-800"> พิกัด / แผนที่</h3>
+		<img src="พิกัด2.png" style="display: block; margin: 0 auto;" class="rounded-lg shadow-md mb-4" />			
+			<p>พิกัด: 13.2490° N, 101.0409° E</p><section class=" p-6">
+				<h3 class="text-xl font-semibold text-blue-800"> วิดีโอแนะนำ</h3></p>
+				<video controls class="w-full rounded-lg shadow-md mb-4">
+				<source src="สวนสัตว์เปิดเขาเขียว.mp4" type="video/mp4">
+				</video>
+			</section>
+        <p>สวนสัตว์ขนาดใหญ่ในอำเภอศรีราชา จังหวัดชลบุรี มีสัตว์มากกว่า 300 ชนิดในสภาพแวดล้อมธรรมชาติ เปิดให้ชมทั้งกลางวันและกลางคืน (Night Safari) เหมาะกับครอบครัว เดินทางสะดวกจากกรุงเทพฯ ใช้เวลาเพียงประมาณ 1.5 ชั่วโมง</p><section class="p-6">
+      </div>
+      <!-- 2 -->
+      <div class="bg-white border border-blue-200 rounded-lg shadow p-4 text-center">
+        <h3 class="text-xl font-semibold text-blue-800">เกาะล้าน (Koh Larn) </h3><section class="p-6">
+		<img src="เกาะล้าน.jpg" style="display: block; margin: 0 auto;" class="rounded-lg shadow-md mb-4"
+			<p>เกาะล้าน เป็นหนึ่งในสถานที่ท่องเที่ยวยอดนิยมของจังหวัดชลบุรี ตั้งอยู่ห่างจากชายฝั่งเมืองพัทยาเพียง 7 กิโลเมตร ใช้เวลาเดินทางด้วยเรือข้ามฟากเพียงประมาณ 30–45 นาที เกาะแห่งนี้ขึ้นชื่อเรื่องหาดทรายขาว น้ำทะเลใส และกิจกรรมทางน้ำที่หลากหลาย เช่น ดำน้ำ พาราเซลลิ่ง และขับเจ็ทสกีเกาะล้านมีหาดที่น่าสนใจหลายแห่ง ได้แก่ หาดตาแหวน ซึ่งเป็นหาดยอดนิยมที่สุด เหมาะสำหรับเล่นน้ำและถ่ายรูป, หาดเทียน ที่เงียบสงบและเป็นธรรมชาติ และ หาดนวล ที่มีความเป็นส่วนตัวมากขึ้น เหมาะสำหรับผู้ที่ต้องการพักผ่อนแบบสบาย ๆนักท่องเที่ยวสามารถพักค้างคืนบนเกาะได้ เพราะมีที่พักหลากหลายแบบ ทั้งโฮมสเตย์ รีสอร์ต และโรงแรมขนาดเล็ก นอกจากนี้ยังมีร้านอาหารทะเลสด ๆ และคาเฟ่สวย ๆ ให้เลือกมากมาย ทำให้เกาะล้านเป็นตัวเลือกที่สมบูรณ์แบบสำหรับการเที่ยวทะเลแบบใกล้กรุงเทพฯ</p><section class=" p-6">
+		<h3 class="text-xl font-semibold text-blue-800"> เวลาเปิด–ปิด</h3><section class="p-6">
+			<p>เปิดให้ท่องเที่ยวตลอดปี แต่เรือข้ามฟากมีรอบตามเวลาที่กำหนด</p>
+			<p>เรือข้ามฟากจากพัทยาไปเกาะล้าน</p>
+			<p>เรือทั่วไป: 07:00 – 18:30 น.</p>
+			<p>เรือเร็ว (สปีดโบ๊ท): ตลอดวัน (แล้วแต่ผู้ให้บริการ)</p><section class="p-6">
+		<h3 class="text-xl font-semibold text-blue-800"> พิกัด / แผนที่</h3>
+		<img src="พิกัด.png" style="display: block; margin: 0 auto;" class="rounded-lg shadow-md mb-4" />			
+			<p>พิกัด GPS: 12.9108° N, 100.7735° E</p><section class="p-6">
+		<h3 class="text-xl font-semibold text-blue-800"> วิดีโอแนะนำ</h3></p>
+			<section class="bg-white rounded-xl shadow-md p-6">
+				<video controls style="width:1,920px; height:1,080px;" class=" rounded-lg shadow-md mb-4 mx-auto">
+				<source src="เกาะล้าน.mp4" type="video/mp4">
+				</video>
+			</section>
+        <p>เกาะล้านเป็นเกาะยอดนิยมของจังหวัดชลบุรี ตั้งอยู่ห่างจากชายฝั่งพัทยาเพียง 7 กิโลเมตร เดินทางสะดวก น้ำทะเลใส หาดทรายขาว มีกิจกรรมทางน้ำมากมาย เช่น ดำน้ำ พาราเซล และขับเจ็ตสกี เหมาะสำหรับทั้งเที่ยวแบบเช้าไป-เย็นกลับ หรือพักค้างคืน</p><section class="p-6">
+      </div>
+      <!-- 3 -->
+       <div class="bg-white border border-blue-200 rounded-lg shadow p-4 text-center">
+        <h3 class="text-xl font-semibold text-blue-800">หาดบางแสน (Bang Saen Beach) </h3><section class="p-6">
+		<img src="หาดบางแสน.png" style="display: block; margin: 0 auto;" class="rounded-lg shadow-md mb-4"
+			<p>หาดบางแสน เป็นชายหาดยอดนิยมในจังหวัดชลบุรี อยู่ในอำเภอเมืองชลบุรี ห่างจากกรุงเทพฯ ประมาณ 90 กิโลเมตร ใช้เวลาเดินทางราว 1–2 ชั่วโมง ทำให้เป็นจุดหมายปลายทางของนักท่องเที่ยวแบบเช้าไป–เย็นกลับ เหมาะสำหรับครอบครัว คู่รัก และกลุ่มเพื่อนชายหาดมีบรรยากาศคึกคัก มีร่มชายหาดเรียงราย ตลอดแนวชายฝั่งให้บริการอาหารทะเลและเครื่องดื่มสดชื่น นักท่องเที่ยวยังสามารถเช่าเสื่อเล่นน้ำทะเล ขี่จักรยานเลียบหาด หรือเล่นกิจกรรมทางน้ำ เช่น บานาน่าโบ๊ท และเจ็ตสกีใกล้หาดยังมีสถานที่ท่องเที่ยวอื่น ๆ เช่น แหลมแท่น, เขาสามมุข, และ พิพิธภัณฑ์สัตว์น้ำบางแสน เหมาะสำหรับการพักผ่อนในวันหยุดแบบไม่ต้องเดินทางไกล
+</p><section class=" p-6">
+		<h3 class="text-xl font-semibold text-blue-800"> เวลาเปิด–ปิด</h3><section class="p-6">
+			<p>เปิดตลอด 24 ชั่วโมง (เหมาะเที่ยวช่วงเช้า–เย็น)</p>
+			<p>เร้านค้าและบริการริมชายหาด: ประมาณ 06.00 – 19.00 น.</p><section class=" p-6">
+		<h3 class="text-xl font-semibold text-blue-800"> พิกัด / แผนที่</h3>
+		<img src="พิกัด3.png" style="display: block; margin: 0 auto;" class="rounded-lg shadow-md mb-4" />			
+			<p>พิกัด: 13.2838° N, 100.9277° E</p><section class="p-6">
+			</section>
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+				<img src="บางแสน1.jpg" alt="ภาพที่ 1" class="rounded-lg shadow-md w-full h-auto">
+				<img src="บางแสน4.png" alt="ภาพที่ 2" class="rounded-lg shadow-md w-full h-auto">
+				<img src="บางแสน.jpg" alt="ภาพที่ 3" class="rounded-lg shadow-md w-full h-auto">
+			</div>
+        <p>ชายหาดยอดนิยมใกล้กรุงเทพฯ เดินทางสะดวก เหมาะสำหรับพักผ่อน เล่นน้ำทะเล และรับประทานอาหารทะเลริมชายหาด บรรยากาศคึกคักตลอดวัน เหมาะกับครอบครัวและกลุ่มเพื่อน</p><section class="p-6">
+      </div>
+	   <!-- 4 -->
+      <div class="bg-white border border-blue-200 rounded-lg shadow p-4 text-center">
+        <h3 class="text-xl font-semibold text-blue-800">พิพิธภัณฑ์สัตว์น้ำบางแสน (Bangsaen Aquarium)</h3><section class="p-6">
+		<img src="ป้าย1.jpg" style="display: block; margin: 0 auto;" class="rounded-lg shadow-md mb-4"</h3> 
+			<p>พิพิธภัณฑ์สัตว์น้ำบางแสน เป็นสถานที่ท่องเที่ยวเพื่อการเรียนรู้ด้านวิทยาศาสตร์ทางทะเล ตั้งอยู่ภายในมหาวิทยาลัยบูรพา อำเภอเมืองชลบุรี จังหวัดชลบุรี ที่นี่จัดแสดงสัตว์น้ำหลากหลายชนิด ทั้งน้ำเค็มและน้ำจืด พร้อมอุโมงค์ปลาขนาดใหญ่ที่สามารถเดินชมได้อย่างใกล้ชิดจุดเด่นของที่นี่คือการจัดแสดงสัตว์ทะเลในสภาพแวดล้อมที่ใกล้เคียงธรรมชาติ เช่น ปลาฉลาม เต่าทะเล ปลากระเบน แมงกะพรุน และสัตว์ทะเลหายากอื่น ๆ เหมาะสำหรับทั้งเด็กและผู้ใหญ่ที่ต้องการศึกษาเรื่องระบบนิเวศทางทะเลภายในยังมีนิทรรศการให้ความรู้เกี่ยวกับการอนุรักษ์ทะเล การประมงพื้นบ้าน และกิจกรรมเชิงวิทยาศาสตร์ต่าง ๆ เหมาะกับการมาเที่ยวแบบครอบครัว หรือเป็นหมู่คณะนักเรียน นักศึกษา</p><section class="bg-white rounded-xl shadow-md p-6">
+		<h3 class="text-xl font-semibold text-blue-800"> เวลาเปิด–ปิด</h3><section class="p-6">
+			<p>เปิดวันอังคาร–อาทิตย์ เวลา 09.00 – 16.00 น.</p>
+			<p>หยุดทุกวันจันทร์</p><section class="p-6">
+		<h3 class="text-xl font-semibold text-blue-800"> พิกัด / แผนที่</h3>
+		<img src="พิกัด4.png" style="display: block; margin: 0 auto;" class="rounded-lg shadow-md mb-4" />			
+			<p>พิกัด: 13.2772° N, 100.9263° E</p><section class=" p-6">
+		<h3 class="text-xl font-semibold text-blue-800"> วิดีโอแนะนำ</h3></p>
+			<section class="bg-white rounded-xl shadow-md p-6">
+				<video controls style="width:1,920px; height:1,080px;" class=" rounded-lg shadow-md mb-4 mx-auto">
+				<source src="พิพิธภัณฑ์สัตว์น้ำบางแสน.mp4" type="video/mp4">
+				</video>
+			</section>
+        <p>แหล่งเรียนรู้ทางทะเลในมหาวิทยาลัยบูรพา จัดแสดงสัตว์น้ำหลากชนิด พร้อมอุโมงค์ปลาขนาดใหญ่ เหมาะกับครอบครัว เด็กนักเรียน และผู้ที่สนใจโลกใต้ทะเล</p><section class="p-6">
+      </div>
+	  <!-- 5 -->
+       <div class="bg-white border border-blue-200 rounded-lg shadow p-4 text-center">
+        <h3 class="text-xl font-semibold text-blue-800">มะลิ แคท คาเฟ่ บางแสน ( Mali Cat Café Bangsaen) </h3><section class="p-6">
+		<img src="คาเฟ่แมว.png" style="display: block; margin: 0 auto;" class="rounded-lg shadow-md mb-4"
+			<p>Mali Cat Café เป็นคาเฟ่แมวชื่อดังในย่านบางแสน จังหวัดชลบุรี ที่ตกแต่งในสไตล์อบอุ่นน่ารัก เหมาะสำหรับคนรักแมวและสายคาเฟ่ ที่นี่มีแมวหลากหลายสายพันธุ์ให้ลูกค้าได้เล่น พักผ่อน และถ่ายภาพอย่างใกล้ชิดนอกจากบรรยากาศที่เป็นกันเองแล้ว ทางร้านยังมีเมนูเครื่องดื่ม ขนม และของหวานหลากหลาย เช่น ชา กาแฟ เค้กโฮมเมด ที่จัดเสิร์ฟในภาชนะน่ารัก เข้ากับธีมร้าน ลูกค้าสามารถนั่งเล่นได้แบบไม่เร่งรีบ พร้อมมุมถ่ายรูปสุดคิวต์ร้านนี้เหมาะกับทั้งคนที่ต้องการมาพักผ่อน หรือหาสถานที่นั่งชิลล์ในวันหยุด อีกทั้งยังอยู่ใกล้กับมหาวิทยาลัยบูรพา และหาดบางแสน จึงเดินทางสะดวกและเหมาะกับการแวะระหว่างทริปเที่ยว</p><section class=" p-6">
+		<h3 class="text-xl font-semibold text-blue-800"> เวลาเปิด–ปิด</h3><section class="p-6">
+			<p>เปิดทุกวัน เวลา 11.00 – 20.00 น.</p>
+		<h3 class="text-xl font-semibold text-blue-800"> พิกัด / แผนที่</h3>
+		<img src="พิกัด5.png" style="display: block; margin: 0 auto;" class="rounded-lg shadow-md mb-4" />			
+			<p>พิกัด: 13.2833° N, 100.9250° E</p><section class="p-6">
+			</section>
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+				<img src="แมว.jpg" alt="ภาพที่ 1" class="rounded-lg shadow-md w-full h-auto">
+				<img src="แมว1.jpg" alt="ภาพที่ 2" class="rounded-lg shadow-md w-full h-auto">
+				<img src="แมว2.jpg" alt="ภาพที่ 3" class="rounded-lg shadow-md w-full h-auto">
+				<img src="แมว3.jpg" alt="ภาพที่ 4" class="rounded-lg shadow-md w-full h-auto">
+				<img src="แมว6.jpg" alt="ภาพที่ 5" class="rounded-lg shadow-md w-full h-auto">
+				<img src="แมว7.jpg" alt="ภาพที่ 6" class="rounded-lg shadow-md w-full h-auto">
+
+			</div>
+        <p>Mali Cat Café Bangsaen (มะลิ แคท คาเฟ่ บางแสน) เป็นคาเฟ่แมวสุดน่ารักในย่านบางแสน จังหวัดชลบุรี ตั้งอยู่ตรงข้ามมหาวิทยาลัยบูรพา ภายในร้านมีแมวมากกว่า 70 ตัวให้คุณได้เล่นและถ่ายรูปอย่างใกล้ชิด พร้อมเมนูเครื่องดื่มและขนมหวานหลากหลาย เหมาะสำหรับคนรักแมวที่ต้องการพักผ่อนในบรรยากาศอบอุ่นและเป็นกันเอง</p><section class="p-6">
+      </div>
+	 
+    </section>
+
+    <!-- เกี่ยวกับ -->
+    <section id="about" class="page hidden">
+      <h2 class="text-2xl font-semibold mb-4">เกี่ยวกับเว็บไซต์</h2>
+      <p>เว็บไซต์นี้จัดทำขึ้นเพื่อแนะนำสถานที่ท่องเที่ยวในจังหวัดชลบุรี โดยมีวัตถุประสงค์ทางการศึกษาและวิจัยเท่านั้น</p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-blue-800 text-white text-center p-4 mt-10">
+    <p>&copy; 2024 เที่ยวชลบุรี </p>
+  </footer>
+
+  <!-- JavaScript สำหรับสลับหน้า -->
+  <script>
+    function showPage(id) {
+      document.querySelectorAll('.page').forEach(el => el.classList.add('hidden'));
+      document.getElementById(id).classList.remove('hidden');
+    }
+  </script>
+
+</body>
+</html>
